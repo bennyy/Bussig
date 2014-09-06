@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "bussig.mob.com.bussig"
+        applicationId "com.mob.bussig"
         minSdkVersion 14
         targetSdkVersion 20
         versionCode 1

@@ -1,4 +1,4 @@
-package bussig.mob.com.bussig;
+package com.mob.bussig;
 
 import android.app.Activity;
 import android.os.Bundle;

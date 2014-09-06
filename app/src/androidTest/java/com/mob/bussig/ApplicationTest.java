@@ -1,4 +1,4 @@
-package bussig.mob.com.bussig;
+package com.mob.bussig;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
