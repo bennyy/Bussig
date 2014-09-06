@@ -16,6 +16,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".LineListActivity"
+            android:label="@string/title_activity_line_list"
+            android:parentActivityName=".StationListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mob.bussig.StationListActivity" />
+        </activity>
+        <activity
+            android:name=".DepartureListActivity"
+            android:label="@string/title_activity_departure_list"
+            android:parentActivityName=".LineListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.mob.bussig.LineListActivity" />
+        </activity>
     </application>
 
 </manifest>
